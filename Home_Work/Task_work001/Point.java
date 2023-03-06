@@ -8,9 +8,9 @@ public class Point {
     private final int y ;  
     private static final Random random = new Random();
 
-    public static Point getRandomPoint(){
-        int x = random.nextInt(0, 10);
-        int y = random.nextInt(0, 10);
+    public static Point getRandomPoint(int n ){
+        int x = random.nextInt(0, n);
+        int y = random.nextInt(0, n);
         return new Point(x, y);
     } 
 

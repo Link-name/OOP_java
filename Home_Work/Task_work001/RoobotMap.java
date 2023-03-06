@@ -3,7 +3,7 @@ package Home_Work.Task_work001;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Random;
+
 
 public class RoobotMap {
     private int n;
@@ -27,31 +27,25 @@ public class RoobotMap {
     
     
     public Robot createRobot(Point point){
-        // System.out.println("На карте созданно " + (robots.size() +1) + " Робота - находится на точке"+ point);
         try {
             validatePoint(point);
             if(robots.size()>=MaxCountRobots)
             throw new IllegalStateException ("Достигнуто максимальное количество роботов" + MaxCountRobots);
             Robot robot = new Robot(point);
                 robots.add(robot);
-                System.out.println("На карте созданно " + robots.size() + " Робота - находится на точке"+ point);    
+                System.out.println("На карте создан " + robots.size() + " Робот - находится на точке"+ point);    
             return robot;
         } catch (IllegalStateException e) {
         System.out.println("Ошибка: " + e.getMessage());
-        System.out.println("Создание робота на другой точке...");
-        Point newPoint = Point.getRandomPoint();
-        return createRobot(newPoint); // recursively call createRobot() with the new point
-        
+        Point newPoint = Point.getRandomPoint(n);
+        if(robots.size()< MaxCountRobots){
+            System.out.println("Создание робота на другой точке...");
+            return createRobot(newPoint); 
+        }
+        return null;
         }
         }
        
-    
-    // public Robot createRobot(Point point){
-
-    //     return this(robots.add(robot));
-    // } 
-
-
     private void validatePoint(Point point){
 
         validaterPointCorrect(point);
@@ -96,7 +90,7 @@ public class RoobotMap {
 
         private Direction direction;
         private Point point;
-        // private int countRobots;
+        
 
         public Robot(Point point) {
             this.direction = DEFAULT_DIRECTION;
@@ -113,20 +107,24 @@ public class RoobotMap {
             this.direction = direction;
         }
 
-        public void move(){  
+        public void move(int number_steps){  
             Point newPoint = switch (direction){
-                case TOP -> newPoint = new Point(point.getX()-1, point.getY());
-                case RIGHT -> newPoint = new Point(point.getX(), point.getY()+1);
-                case BOTTOM -> newPoint = new Point(point.getX()+1, point.getY());
-                case LEFT -> newPoint = new Point(point.getX(), point.getY()-1);
+                case TOP -> newPoint = new Point(point.getX()-number_steps, point.getY());
+                case RIGHT -> newPoint = new Point(point.getX(), point.getY()+number_steps);
+                case BOTTOM -> newPoint = new Point(point.getX()+number_steps, point.getY());
+                case LEFT -> newPoint = new Point(point.getX(), point.getY()-number_steps);
             };
             validatePoint(newPoint);
             
             System.out.println("Робот переместился с " + point + " на " + newPoint);
+            System.out.println("Робот сделал "+ number_steps + " шага");
             this.point = newPoint;
             
             
         }
+
+        
+
         @Override
         public String toString() {
             return point.toString() +", ["+ direction.name()+"]"; // direction.name() = стора в которую смотрит робат
