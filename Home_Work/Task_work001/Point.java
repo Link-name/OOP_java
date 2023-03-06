@@ -1,12 +1,18 @@
-package Sem_Lesson_1.Game;
+package Home_Work.Task_work001;
 
 import java.util.Objects;
-
-import javax.naming.ldap.ExtendedRequest;
+import java.util.Random;
 
 public class Point {
     private final int x ;
     private final int y ;  
+    private static final Random random = new Random();
+
+    public static Point getRandomPoint(){
+        int x = random.nextInt(0, 10);
+        int y = random.nextInt(0, 10);
+        return new Point(x, y);
+    } 
 
     public Point(int x , int y ){
         this.x = x;

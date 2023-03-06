@@ -1,5 +1,4 @@
 package Home_Work.task_1;
-
 import java.util.*;
 
 public class RobotGameMain {
@@ -82,7 +81,13 @@ public class RobotGameMain {
                 @Override
                 public void runCommand(String[] args) {
                     map.acceptRobots(System.out::println);
-
+                    // map.acceptRobots(robot -> System.out.println(robot));
+                    // map.acceptRobots(new Consumer<RobotMap.Robot>() {
+                    // @Override
+                    // public void accept(RobotMap.Robot robot) {
+                    // System.out.println(robot);
+                    // }
+                    // });
                 }
             });
         }
@@ -101,7 +106,30 @@ public class RobotGameMain {
                     robot.ifPresentOrElse(RobotMap.Robot::move,
                             () -> System.out.println("Робот с идентификатором " + robotId + " не найден"));
 
+                    // if (robot.isPresent()) {
+                    // RobotMap.Robot value = robot.get();
+                    // value.move();
+                    // } else {
+                    // System.out.println("Робот с идентификатором " + robotId + " не найден")
+                    // }
 
+                    // robot.ifPresentOrElse(new Consumer<RobotMap.Robot>() {
+                    // @Override
+                    // public void accept(RobotMap.Robot robot) {
+                    // robot.move();
+                    // }
+                    // }, new Runnable() {
+                    // @Override
+                    // public void run() {
+                    // System.out.println("Робот с идентификатором " + robotId + " не найден");
+                    // }
+                    // });
+
+                    // if (robot != null) {
+                    // robot.move();
+                    // } else {
+                    // System.out.println("Робот с идентификатором " + robotId + " не найден");
+                    // }
                 }
             });
         }
