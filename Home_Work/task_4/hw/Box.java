@@ -27,7 +27,7 @@ public class Box <T extends Fruit> {
         }
         fruits.clear();
 
-        fruits = new ArrayList<T>();
+        // fruits = new ArrayList<T>();
     /*В Java синтаксис Box<? super T> anotherBox определяет общий тип, параметризованный T,
      где Box - имя класса.
      Ключевое слово super указывает на то, что параметр типа T должен быть суперклассом типа,
