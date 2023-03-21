@@ -1,7 +1,9 @@
-package Home_Work.task_5;
+package Home_Work.task_6;
 
 import java.util.*;
 import java.util.function.Consumer;
+
+import Home_Work.task_6.RobotMap.Robot;
 
 public class RobotGameMain {
 
@@ -66,7 +68,7 @@ public class RobotGameMain {
                 public void runCommand(String[] args) {
                     int x = Integer.parseInt(args[0]);
                     int y = Integer.parseInt(args[1]);
-                    RobotMap.Robot robot = map.createRobot(new Point(x, y));
+                    RobotMap.Robot robot = (Robot) map.createRobot(new Point(x, y));
                     System.out.println("Робот " + robot + " успешно создан");
                 }
             });
