@@ -1,0 +1,357 @@
+{
+    // Используйте IntelliSense, чтобы узнать о возможных атрибутах.
+    // Наведите указатель мыши, чтобы просмотреть описания существующих атрибутов.
+    // Для получения дополнительной информации посетите: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "main",
+            "request": "launch",
+            "mainClass": "Home_Work.task_7.main",
+            "projectName": "OOП_817ee8fb"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "GamaMain",
+            "request": "launch",
+            "mainClass": "Home_Work.Task_work001.GamaMain",
+            "projectName": "OOП_817ee8fb"
+        },
+        {
+            "type": "java",
+            "name": "CompetitionGameMain",
+            "request": "launch",
+            "mainClass": "Home_Work.Task_work002.game.CompetitionGameMain",
+            "projectName": "OOП_817ee8fb"
+        },
+        {
+            "type": "java",
+            "name": "RobotGameMain",
+            "request": "launch",
+            "mainClass": "Home_Work.task_1.RobotGameMain",
+            "projectName": "OOП_817ee8fb"
+        },
+        {
+            "type": "java",
+            "name": "CompetitionGameMain(1)",
+            "request": "launch",
+            "mainClass": "Home_Work.task_2.game.CompetitionGameMain",
+            "projectName": "OOП_817ee8fb"
+        },
+        {
+            "type": "java",
+            "name": "main",
+            "request": "launch",
+            "mainClass": "Home_Work.task_3.main",
+            "projectName": "OOП_817ee8fb"
+        },
+        {
+            "type": "java",
+            "name": "HomeWorkMain",
+            "request": "launch",
+            "mainClass": "Home_Work.task_4.hw.HomeWorkMain",
+            "projectName": "OOП_817ee8fb"
+        },
+        {
+            "type": "java",
+            "name": "RobotGameMain(1)",
+            "request": "launch",
+            "mainClass": "Home_Work.task_5.RobotGameMain",
+            "projectName": "OOП_817ee8fb"
+        },
+        {
+            "type": "java",
+            "name": "RobotGameMain(2)",
+            "request": "launch",
+            "mainClass": "Home_Work.task_6.RobotGameMain",
+            "projectName": "OOП_817ee8fb"
+        },
+        {
+            "type": "java",
+            "name": "Program",
+            "request": "launch",
+            "mainClass": "Lesson_1.Ex001.Program",
+            "projectName": "OOП_817ee8fb"
+        },
+        {
+            "type": "java",
+            "name": "Program(1)",
+            "request": "launch",
+            "mainClass": "Lesson_1.Ex002.Program",
+            "projectName": "OOП_817ee8fb"
+        },
+        {
+            "type": "java",
+            "name": "Program(2)",
+            "request": "launch",
+            "mainClass": "Lesson_1.Ex003.Program",
+            "projectName": "OOП_817ee8fb"
+        },
+        {
+            "type": "java",
+            "name": "Program(3)",
+            "request": "launch",
+            "mainClass": "Lesson_1.Ex004.Program",
+            "projectName": "OOП_817ee8fb"
+        },
+        {
+            "type": "java",
+            "name": "Program(4)",
+            "request": "launch",
+            "mainClass": "Lesson_1.Ex005.Program",
+            "projectName": "OOП_817ee8fb"
+        },
+        {
+            "type": "java",
+            "name": "Program(5)",
+            "request": "launch",
+            "mainClass": "Lesson_1.Ex006.Program",
+            "projectName": "OOП_817ee8fb"
+        },
+        {
+            "type": "java",
+            "name": "Teams",
+            "request": "launch",
+            "mainClass": "Lesson_1.Ex006.Teams",
+            "projectName": "OOП_817ee8fb"
+        },
+        {
+            "type": "java",
+            "name": "Program(6)",
+            "request": "launch",
+            "mainClass": "Lesson_1.Ex007.Program",
+            "projectName": "OOП_817ee8fb"
+        },
+        {
+            "type": "java",
+            "name": "Program(7)",
+            "request": "launch",
+            "mainClass": "Lesson_2.Ex001.Program",
+            "projectName": "OOП_817ee8fb"
+        },
+        {
+            "type": "java",
+            "name": "Program(8)",
+            "request": "launch",
+            "mainClass": "Lesson_2.Ex002.Program",
+            "projectName": "OOП_817ee8fb"
+        },
+        {
+            "type": "java",
+            "name": "Program(9)",
+            "request": "launch",
+            "mainClass": "Lesson_2.Ex003.Program",
+            "projectName": "OOП_817ee8fb"
+        },
+        {
+            "type": "java",
+            "name": "Program(10)",
+            "request": "launch",
+            "mainClass": "Lesson_2.Ex004.Program",
+            "projectName": "OOП_817ee8fb"
+        },
+        {
+            "type": "java",
+            "name": "Program(11)",
+            "request": "launch",
+            "mainClass": "Lesson_2.Ex005.v1.Program",
+            "projectName": "OOП_817ee8fb"
+        },
+        {
+            "type": "java",
+            "name": "Program(12)",
+            "request": "launch",
+            "mainClass": "Lesson_2.Ex005.v2.Program",
+            "projectName": "OOП_817ee8fb"
+        },
+        {
+            "type": "java",
+            "name": "Program(13)",
+            "request": "launch",
+            "mainClass": "Lesson_2.Ex006.Program",
+            "projectName": "OOП_817ee8fb"
+        },
+        {
+            "type": "java",
+            "name": "GamaMain(1)",
+            "request": "launch",
+            "mainClass": "Sem_Lesson_1.Game.GamaMain",
+            "projectName": "OOП_817ee8fb"
+        },
+        {
+            "type": "java",
+            "name": "Ex_sem_1",
+            "request": "launch",
+            "mainClass": "Sem_Lesson_1.Инкапсуляция.Ex_sem_1",
+            "projectName": "OOП_817ee8fb"
+        },
+        {
+            "type": "java",
+            "name": "Ex_sem_1(1)",
+            "request": "launch",
+            "mainClass": "Sem_Lesson_1.Наследование.Ex_sem_1",
+            "projectName": "OOП_817ee8fb"
+        },
+        {
+            "type": "java",
+            "name": "Ex_1_P",
+            "request": "launch",
+            "mainClass": "Sem_Lesson_1.Полиморфизм.Ex_1_P",
+            "projectName": "OOП_817ee8fb"
+        },
+        {
+            "type": "java",
+            "name": "AdapterMain",
+            "request": "launch",
+            "mainClass": "Sem_Lesson_2.lesson2.adapter.AdapterMain",
+            "projectName": "OOП_817ee8fb"
+        },
+        {
+            "type": "java",
+            "name": "CompetitionGameMain(2)",
+            "request": "launch",
+            "mainClass": "Sem_Lesson_2.lesson2.game.CompetitionGameMain",
+            "projectName": "OOП_817ee8fb"
+        },
+        {
+            "type": "java",
+            "name": "Lesson2Main",
+            "request": "launch",
+            "mainClass": "Sem_Lesson_2.lesson2.intro.Lesson2Main",
+            "projectName": "OOП_817ee8fb"
+        },
+        {
+            "type": "java",
+            "name": "ComparatorMain",
+            "request": "launch",
+            "mainClass": "Sem_Lesson_3.ComparatorMain",
+            "projectName": "OOП_817ee8fb"
+        },
+        {
+            "type": "java",
+            "name": "IteratorMain",
+            "request": "launch",
+            "mainClass": "Sem_Lesson_3.IteratorMain",
+            "projectName": "OOП_817ee8fb"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Sem_Lesson_4.Main",
+            "projectName": "OOП_817ee8fb"
+        },
+        {
+            "type": "java",
+            "name": "HomeWorkMain(1)",
+            "request": "launch",
+            "mainClass": "Sem_Lesson_4.hw.HomeWorkMain",
+            "projectName": "OOП_817ee8fb"
+        },
+        {
+            "type": "java",
+            "name": "Main(1)",
+            "request": "launch",
+            "mainClass": "Sem_Lesson_4.methodgenerics.Main",
+            "projectName": "OOП_817ee8fb"
+        },
+        {
+            "type": "java",
+            "name": "Main(2)",
+            "request": "launch",
+            "mainClass": "Sem_Lesson_4.twotypesgeneric.Main",
+            "projectName": "OOП_817ee8fb"
+        },
+        {
+            "type": "java",
+            "name": "RobotGameMain(3)",
+            "request": "launch",
+            "mainClass": "Sem_Lesson_5.RobotGameMain",
+            "projectName": "OOП_817ee8fb"
+        },
+        {
+            "type": "java",
+            "name": "StringToDirectionExample",
+            "request": "launch",
+            "mainClass": "Sem_Lesson_5.StringToDirectionExample",
+            "projectName": "OOП_817ee8fb"
+        },
+        {
+            "type": "java",
+            "name": "task",
+            "request": "launch",
+            "mainClass": "Test.Abstract.task",
+            "projectName": "OOП_817ee8fb"
+        },
+        {
+            "type": "java",
+            "name": "TV",
+            "request": "launch",
+            "mainClass": "Test.New_test001.TV",
+            "projectName": "OOП_817ee8fb"
+        },
+        {
+            "type": "java",
+            "name": "TooMinets",
+            "request": "launch",
+            "mainClass": "Test.NumberStorage.TooMinets",
+            "projectName": "OOП_817ee8fb"
+        },
+        {
+            "type": "java",
+            "name": "sum_number",
+            "request": "launch",
+            "mainClass": "Test.Numet_sum.sum_number",
+            "projectName": "OOП_817ee8fb"
+        },
+        {
+            "type": "java",
+            "name": "test",
+            "request": "launch",
+            "mainClass": "Test.Polimorfizm.test",
+            "projectName": "OOП_817ee8fb"
+        },
+        {
+            "type": "java",
+            "name": "tast",
+            "request": "launch",
+            "mainClass": "Test.Polll.tast",
+            "projectName": "OOП_817ee8fb"
+        },
+        {
+            "type": "java",
+            "name": "test(1)",
+            "request": "launch",
+            "mainClass": "Test.interfeces.test",
+            "projectName": "OOП_817ee8fb"
+        },
+        {
+            "type": "java",
+            "name": "tast(1)",
+            "request": "launch",
+            "mainClass": "Test.tast",
+            "projectName": "OOП_817ee8fb"
+        },
+        {
+            "type": "java",
+            "name": "tesrtAd",
+            "request": "launch",
+            "mainClass": "Test.testAdept.tesrtAd",
+            "projectName": "OOП_817ee8fb"
+        },
+        {
+            "type": "java",
+            "name": "test_1",
+            "request": "launch",
+            "mainClass": "Test.test_1",
+            "projectName": "OOП_817ee8fb"
+        }
+    ]
+}
